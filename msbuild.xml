@@ -31,7 +31,7 @@
 						br.Close();
 
 						Assembly a = Assembly.Load(bin);
-						string[] args = new string[] {"ASSEMBLY ARGS GO HERE"};
+						string[] args = new string[] {""};
 						try
 						{
 							a.EntryPoint.Invoke(null, new object[] { args });
